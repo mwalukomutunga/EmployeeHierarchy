@@ -15,7 +15,12 @@ namespace EmployeeHierarchy
         private void LoadEmployeeFromCsvString(string csvString)
         {
             var columns = csvString.Split(',');
+            employees.Add(columns.AsEmployee(employees));
+        }
 
+        public IEnumerable<IEmployeeHierarchy> GetEmployeeHierarchy()
+        {
+            return employees;
         }
     }
 }
