@@ -4,7 +4,7 @@ using System.Text;
 
 namespace EmployeeHierarchy
 {
-   public class EmployeeHierarchy
+    public class EmployeeHierarchy : IEmployeeHierarchy
     {
         public EmployeeHierarchy(string employeeId, string managerId, int salary)
         {
