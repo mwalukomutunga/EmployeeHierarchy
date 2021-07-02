@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHierarchy", "EmployeeHierarchy\EmployeeHierarchy.csproj", "{DF8709B0-8229-43EC-8316-2E26529A2240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF8709B0-8229-43EC-8316-2E26529A2240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF8709B0-8229-43EC-8316-2E26529A2240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF8709B0-8229-43EC-8316-2E26529A2240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF8709B0-8229-43EC-8316-2E26529A2240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDD151E1-04A6-4CDF-9B37-DA5D9395F37D}
+	EndGlobalSection
+EndGlobal
