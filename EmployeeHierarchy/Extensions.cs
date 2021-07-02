@@ -47,10 +47,10 @@ namespace EmployeeHierarchy
 
             //There is no circular reference, i.e. a first employee reporting to a second employee that is also under
             // the first employee.
-            //if (employees.Select(x => x.EmployeeId).Contains(employeeId) && employees.FirstOrDefault(x => x.EmployeeId == employeeId).ManagerId != managerId)
-            //{
-            //    throw new InvalidDataException("Employee should not have circular reference");
-            //}
+            if (employees.FirstOrDefault(x =>x.EmployeeId == employeeId).ManagerId == employeeId  && managerId == employeeId)
+            {
+                throw new InvalidDataException("Employee should not have circular reference");
+            }
             //There is no manager that is not an employee, i.e. all managers are also listed in the employee
             //column.
             if (!employees.Select(x => x.EmployeeId).Contains(managerId) )
