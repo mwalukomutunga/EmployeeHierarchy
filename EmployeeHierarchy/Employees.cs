@@ -12,9 +12,10 @@ namespace EmployeeHierarchy
             LoadEmployeeFromCsvString(csv);
         }
 
-        private void LoadEmployeeFromCsvString(string csv)
+        private void LoadEmployeeFromCsvString(string csvString)
         {
-            throw new NotImplementedException();
+            var columns = csvString.Split(',');
+
         }
     }
 }
