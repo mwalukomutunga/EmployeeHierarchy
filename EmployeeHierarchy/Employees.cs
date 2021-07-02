@@ -11,13 +11,20 @@ namespace EmployeeHierarchy
         {
             LoadEmployeeFromCsvString(csv);
         }
-
+        /// <summary>
+        /// Load Csv string
+        /// </summary>
+        /// <param name="csvString"></param>
         private void LoadEmployeeFromCsvString(string csvString)
         {
             var columns = csvString.Split(',');
             employees.Add(columns.AsEmployee(employees));
         }
 
+        /// <summary>
+        /// Gets all employeees and their hierarchy
+        /// </summary>
+        /// <returns></returns>
         public IEnumerable<IEmployeeHierarchy> GetEmployeeHierarchy()
         {
             return employees;

@@ -9,7 +9,7 @@ namespace EmployeeHierarchy
         public EmployeeHierarchy(string employeeId, string managerId, int salary)
         {
             EmployeeId = employeeId;
-            ManagerId = managerId;
+            ManagerId = string.IsNullOrEmpty(managerId)?"": managerId;
             Salary = salary;
             IsCeo = string.IsNullOrEmpty(managerId);
         }
