@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHierarchy", "EmployeeHierarchy\EmployeeHierarchy.csproj", "{DF8709B0-8229-43EC-8316-2E26529A2240}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EmployeeHierarchy", "EmployeeHierarchy\EmployeeHierarchy.csproj", "{DF8709B0-8229-43EC-8316-2E26529A2240}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeHierarchy.Tests", "EmployeeHierarchy.Tests\EmployeeHierarchy.Tests.csproj", "{2578840F-46FD-447C-BE17-6C19F6FB78BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{DF8709B0-8229-43EC-8316-2E26529A2240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DF8709B0-8229-43EC-8316-2E26529A2240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DF8709B0-8229-43EC-8316-2E26529A2240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2578840F-46FD-447C-BE17-6C19F6FB78BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2578840F-46FD-447C-BE17-6C19F6FB78BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2578840F-46FD-447C-BE17-6C19F6FB78BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2578840F-46FD-447C-BE17-6C19F6FB78BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
